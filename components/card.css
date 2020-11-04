@@ -1,0 +1,43 @@
+.card-white-img {
+	background-image: url(https://source.unsplash.com/daily);
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+
+.card-white-img:hover .btn {
+	transition: .5s;
+	opacity: 1;
+}
+
+.card-white {
+	width: 250px;
+	background-color: white;
+	padding: 10px 10px 30px 10px;
+}
+
+.list-bottom {
+	float: right;
+}
+
+.list-bottom > li {
+	margin-left: 5px;
+	color: grey;
+}
+
+.card-user {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.card-user > a {
+	margin-left: 10px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
